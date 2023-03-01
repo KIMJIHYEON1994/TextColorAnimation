@@ -1,0 +1,16 @@
+h1 {
+   color: transparent;
+   background-size: 300%;
+   background-position: -100%;
+   animation: animatedText 5s infinite alternate-reverse;
+   background-image: linear-gradient(to right,
+                     #00F260, #F79D00, #0575E6, #64F38C);
+   -webkit-background-clip: text;
+   background-clip: text;
+}
+
+@keyframes animatedText {
+   to {
+      background-position: 100%;
+   }
+}
